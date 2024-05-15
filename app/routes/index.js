@@ -98,7 +98,7 @@ export default function LandingPage() {
               </div>
               <div className="heroSection__desc">
                 <p>
-                  We get it, life is hard. Navigating through campus and keeping track of events and info shouldn't be. Unlock everything SNU has to offer. All just a search away!
+                  We get it, life is hard. Navigating through campus shouldn't be. Unlock everything SNU has to offer. All just a search away!
                 </p>
               </div>
               <div className="heroSection__buttons">
@@ -200,7 +200,7 @@ export default function LandingPage() {
                 <h1 className="featureSection__title--unhighlight">Your Gateway to our<br/><b className="featureSection__title--highlight">Unique Features!</b></h1>
               </div>
               <p className="featureSection--desc">
-                We get it, life is hard. Navigating through campus and keeping track of events and info shouldn't be. Unlock everything SNU has to offer. All just a search away!
+                We get it, life is hard. Navigating through campus shouldn't be. Unlock everything SNU has to offer. All just a search away!
               </p>
             </div>
             <div className="featureSection__bottom">
