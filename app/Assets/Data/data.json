@@ -309,7 +309,7 @@
       "name": "Naveen Tea House",
       "location": "https://www.google.co.in/maps/place/Navin+Tea+House/@28.5254585,77.5763157,70m/data=!3m1!1e3!4m5!3m4!1s0x390c9563f5498a6b:0x3357f27f6229a41d!8m2!3d28.5252787!4d77.57628",
       "menu": "https://cdn.discordapp.com/attachments/913460367844323378/930904931345498202/IMG_20220110_170729.jpg",
-      "description": "",
+      "description": "Chai pe charcha or Kofee with Karan- a drink for every mood",
       "image": "https://media.giphy.com/media/l0ExdBwqD6YkeEhQ4/giphy.gif"
     },
 
@@ -317,7 +317,7 @@
       "name": "Surya Food and beverages",
       "location": "https://www.google.co.in/maps/place/Navin+Tea+House/@28.5254585,77.5763157,70m/data=!3m1!1e3!4m5!3m4!1s0x390c9563f5498a6b:0x3357f27f6229a41d!8m2!3d28.5252787!4d77.57628",
       "menu": "https://cdn.discordapp.com/attachments/913460367844323378/930904930385010778/IMG_20220110_170703.jpg",
-      "description": "",
+      "description": "Need a quick snack, head to Surya",
       "image": "https://media.giphy.com/media/MXKaUKfHbTkGc4yHPt/giphy.gif"
     },
 
@@ -325,13 +325,13 @@
       "name": "Swad Kathi roll",
       "location": "https://www.google.co.in/maps/place/Navin+Tea+House/@28.5254585,77.5763157,70m/data=!3m1!1e3!4m5!3m4!1s0x390c9563f5498a6b:0x3357f27f6229a41d!8m2!3d28.5252787!4d77.57628",
       "menu": "https://cdn.discordapp.com/attachments/913460367844323378/930904930842193980/IMG_20220110_170715.jpg",
-      "description": "",
+      "description": "I could eat a horse”. Don’t!! Just head to Swad. I dare you to finish their roll. Also serves pizza, fries and poha.",
       "image": "https://media.giphy.com/media/OEINL4BEkZ0GY/giphy.gif"
     },
     {
       "name": "Rama Enterprise (Shakes)",
       "location": "https://www.google.co.in/maps/place/28%C2%B031'31.3%22N+77%C2%B034'34.6%22E/@28.5253552,77.5757365,208m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0xd11d0f650a287a87!7e2!8m2!3d28.5253544!4d77.576285",
-      "description": "",
+      "description": "Beat the heat with juice and shakes. Also bring the heat with their spicy Manchurian and Momos.",
       "image": "https://media.giphy.com/media/sYxQujpVuQ9RC/giphy.gif"
     },
     {
@@ -343,21 +343,21 @@
     {
       "name": "The Anna Cafe",
       "location": "https://www.google.co.in/maps/place/The+Adda/@28.5260824,77.5770077,70m/data=!3m1!1e3!4m5!3m4!1s0x390c95bad744401f:0x4372c08299fe4057!8m2!3d28.5261641!4d77.5769734",
-      "description": "",
+      "description": "Go quickly before the Vadas vanish",
       "image": "https://media.giphy.com/media/DYzRk8slHzD2PWdGD5/giphy.gif"
     },
 
     {
       "name": "Mahesh Chinese Fast Food",
       "location": "https://www.google.com/maps/place/Mahesh+Chinese+Fast+Food/@28.5347241,77.5750717,17z/data=!3m1!4b1!4m6!3m5!1s0x390c955f607289b7:0xd42340d8ebe5c6cd!8m2!3d28.5347241!4d77.5750717!16s%2Fg%2F11j2xr8s26?hl=en-IN&entry=ttu",
-      "description": "",
+      "description": "I solemnly swear you will only find Chinese food here",
       "image": "https://media.discordapp.net/attachments/1057249773754785803/1139496872487174154/AADARSH.jpeg"
     },
 
     {
       "name": "Adarsh Dhaba",
       "location": "https://www.google.com/maps/place/Adarsh+Dhaba/@28.534833,77.5741563,17z/data=!3m1!4b1!4m6!3m5!1s0x390c94c5929c6f79:0x30bcbc5d015cda5d!8m2!3d28.534833!4d77.5741563!16s%2Fg%2F11d_w744l8?hl=en-IN&entry=ttu",
-      "description": "",
+      "description": "What happens at Adarsh, stays at Adarsh",
       "image": "https://media.discordapp.net/attachments/1057249773754785803/1139496872487174154/AADARSH.jpeg"
     },
 
@@ -380,7 +380,7 @@
     {
       "name": "Atal Incubation Centre",
       "location": "https://www.google.com/maps/place/Adarsh+Dhaba/@28.534833,77.5741563,17z/data=!3m1!4b1!4m6!3m5!1s0x390c94c5929c6f79:0x30bcbc5d015cda5d!8m2!3d28.534833!4d77.5741563!16s%2Fg%2F11d_w744l8?hl=en-IN&entry=ttu",
-      "description": "",
+      "description": "Have a kick-ass startup idea, head to AIC to take it to the next level",
       "image": "https://media.discordapp.net/attachments/1057249773754785803/1139495833776164985/AIC.jpeg?width=895&height=671"
     },
 
@@ -394,26 +394,26 @@
     {
       "name": "Dargah",
       "location": "https://www.google.com/maps/place/28%C2%B031'14.8%22N+77%C2%B034'22.8%22E/@28.5207852,77.5724398,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0xc04f34ec3b287c1d!7e2!8m2!3d28.5207835!4d77.572987",
-      "description": "",
+      "description": "Akele maat jana",
       "image": "https://media.giphy.com/media/4Zxha5jRmmSOiSalwd/giphy.gif"
     },
     {
       "name": "SNU Lake",
       "location": "https://www.google.com/maps/place/SNU+Lake/@28.5252438,77.5756142,17z/data=!3m1!4b1!4m5!3m4!1s0x390c94dbe0222a6f:0x96c4e051b8e0fe5d!8m2!3d28.5252391!4d77.5778029",
-      "description": "",
+      "description": "Head over to the lake behind the academic blocks to catch the most beautiful sunrise",
       "image": "https://cdn.discordapp.com/attachments/846575266545664014/998965754483453982/lake.jpeg"
     },
 
     {
       "name": "C&D",
       "location": "https://www.google.com/maps/place/28%C2%B031'32.0%22N+77%C2%B034'33.5%22E/@28.5255898,77.5759435,20.12z/data=!4m6!3m5!1s0x0:0x5845f81796d75ab8!7e2!8m2!3d28.5255601!4d77.5759632",
-      "description": "",
+      "description": "Between Academic blocks C and D lies a gastronomical journey",
       "image": "https://media.giphy.com/media/jwNhFOEtt2gWh1T4cy/giphy.gif"
     },
     {
       "name": "A&B",
       "location": "https://www.google.co.in/maps/place//@28.526087,77.5764172,19.09z/data=!4m5!3m4!1s0x390c95bad744401f:0x4372c08299fe4057!8m2!3d28.5261641!4d77.5769734",
-      "description": "",
+      "description": "Between Academic blocks A and B lies burger, pasta and coconut chutney",
       "image": "https://media.giphy.com/media/l3diAVwsxPSylVJBe/giphy.gif"
     },
     {
@@ -533,7 +533,7 @@
     {
       "name": "Indoor Sports Complex",
       "location": "https://www.google.com/maps/place/MESS,+SHIV+NADAR+UNIVERSITY,+Greater+Noida,+Uttar+Pradesh+203207/@28.5212659,77.5709869,17z/data=!3m1!4b1!4m6!3m5!1s0x390c94d7aebad7e7:0x2ff00a3708565d0c!8m2!3d28.5212659!4d77.5709869!16s%2Fg%2F11f4qlbdy2?hl=en-IN&entry=ttu",
-      "description": "",
+      "description": "Overlooking the football field, state-of-the-art sporting infrastructure",
       "image": "https://media.discordapp.net/attachments/1057249773754785803/1139497148854063154/ISC.jpeg?width=895&height=671"
     },
 
