@@ -11,6 +11,10 @@ import styleSheet from "~/styles/routes/LandingPage.css";
 import "~/styles/root/global.css";
 import arrow from "../Assets/Img/Arrow.svg";
 import instagramLogo from "../Assets/Img/instagramLogo.svg";
+import hat from "../Assets/Img/hat.svg"
+import starleft from "../Assets/Img/starleft.svg"
+import starright from "../Assets/Img/starright.svg"
+import cardsConvocation from "../Assets/Img/cardsConvocation.svg"
 import HeroImage from "../Assets/Img/heroImage.png";
 import UsersImage from "../Assets/Img/userPhotos.svg";
 import NavigationMadeEasyCardImg from "../Assets/Img/NavigationMadeEasyCardImg.svg";
@@ -82,19 +86,13 @@ export default function LandingPage() {
       </main> */}
 <Navbar />
       <main className="LandingPage__mainContainer">
-        <section className="heroSection">
+        {/* <section className="heroSection">
           <div className="heroSection__top">
             <div className="heroSection__top--left">
-              {/* <img className="heroSection__arrow" src={arrow} alt="Arrow" /> */}
               <div className="heroSection__title">
                 <h1>
                   Experience SNU to the fullest with our <b className="heroSection__title--highlight">comprehensive guide</b>
                 </h1>
-                {/* <h1>
-                  To all{" "}
-                  <b className="heroSection__title--unhighlight">things</b>{" "}
-                  <b className="heroSection__title--highlight">SNU</b>
-                </h1> */}
               </div>
               <div className="heroSection__desc">
                 <p>
@@ -114,49 +112,13 @@ export default function LandingPage() {
                 />
               </div>
               
-              {/* {!callToAction && (
-                <div className="heroSection__callToAction">
-                  <ButtonLink
-                    content="Learn More"
-                    onClick={() => {
-                      window.scrollTo({
-                        top: document.querySelector(".aboutSection").offsetTop,
-                        behavior: "smooth",
-                      });
-                    }}
-                  />
-                  <ButtonLink href="/about" content="Contact Us" fill />
-                </div>
-              )} */}
+              
             </div>
             <div className="heroSection__top--right">
               <div className="heroSection--img">
                 <img src={HeroImage} />
               </div>
-              {/* <div className="heroSection__funFact">
-                <span>Fun Fact :&nbsp; &nbsp;</span>
-                <p>Nilgais will chase you if you make eye contact</p>
-              </div> */}
-              {/* <SearchBar /> */}
-              {/* <div className="heroSection__instagramDiv">
-                <p className="heroSection__instagramDiv--text">
-                  Don’t forget to follow our instagram for regular updates!
-                </p>
-                <div className="heroSection__instagramDiv--instaHandle">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.instagram.com/snu.xplore/"
-                  >
-                    <img
-                      className="heroSection__instagramDiv--instaHandle--instaLogo"
-                      src={instagramLogo}
-                      alt="instagram icon"
-                    />
-                    @snu.xplore
-                  </a>
-                </div>
-              </div> */}
+              
             </div>
           </div>
           <div className="heroSection__bottom">
@@ -173,23 +135,72 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-          {/* <div className="heroSection__bottom">
-            <div className="heroSection__stats">
-              <p className="heroSection__stats--title">Clubs on our Platform</p>
-              <p className="heroSection__stats--stat">60+</p>
+          
+        </section> */}
+
+     <section className="convocation">
+      <div className="convocation__left">
+        <div className="convocation__left--img">
+                <img src={starleft}/>
+        </div>
+      </div>
+      <div className="convocation__middle">
+        <div className="convocation__hat">
+          <img src={hat} />
+        </div>
+        <div className="convocation__title">
+          <h1>
+          Welcome to the <br/>10th Annual SNIoE<br/><b className="convocation__title--highlight">Convocation!</b>
+          </h1>
+        </div>
+        <div className="convocation__desc">
+          <p>
+          We get it, life is hard. Navigating through the 286 acre campus shouldn't be. Unlock everything SNU has to offer. All just a search away!
+          </p>
+        </div>
+        <div className="convocation__buttons">
+          <ButtonLink
+            content="Begin Tour"
+            href="/navigate"
+            className="convocation__buttons--button convocation__buttons--navigateButton"
+           />
+          <ButtonLink
+            content="SNU-GPT"
+            href="/snugpt"
+            className="convocation__buttons--button convocation__buttons--snugpt"
+          />
+        </div>
+        <div className="heroSection__bottom">
+        <div className="heroSection__users">
+              <div className="heroSection__users--left">
+                <div className="heroSection__usersData">
+                  <div className="heroSection__usersData--count">5.5k</div>
+                  <div className="heroSection__usersData--text">users already use snuxplore</div>
+                </div>
+              </div>
+              <div className="heroSection__users--right">
+                  <img className="heroSection__users--userImage" src={UsersImage} />
+                  <img className="heroSection__users--userImageArrowImg" src={UsersImageArrow} />
+              </div>
             </div>
-            <div className="heroSection__stats">
-              <p className="heroSection__stats--title">
-                Locations on SNUxplore
-              </p>
-              <p className="heroSection__stats--stat">50+</p>
-            </div>
-            <div className="heroSection__stats">
-              <p className="heroSection__stats--title">Number of Members</p>
-              <p className="heroSection__stats--stat">14</p>
-            </div>
-          </div> */}
-        </section>
+      </div>
+      </div>
+
+      <div className="convocation__right">
+        <div className="convocation__right--img">
+                <img src={starright} />
+      </div>
+      <div className="convocation__right--cards">
+                <img src={cardsConvocation} />
+      </div>
+    </div>
+
+      
+
+
+    </section>
+
+        
         
         <section className="featureSection" id="features">
             <div className="featureSection__top">
