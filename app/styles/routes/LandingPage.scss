@@ -262,7 +262,7 @@
         // @include box($width: fit-content);
         @include respondAt(575px){
           //display: inline-flexbox;
-          width: 120px;
+          width: 190px;
           //gap: 20px;
           padding: 5px 7px 4px 7px;
           box-sizing: content-box;
@@ -656,7 +656,7 @@
       height:200px;
 
       @include respondAt(575px) {
-        margin-left: 20px;
+        margin-left: 15px;
         top:380px;
         width:70px;
         height: 70px;
@@ -683,8 +683,8 @@
     @include respondAt(575px) {
       width: 90px;
       height: auto;
-      margin-bottom: -20px;
-      margin-left: -40px;
+      margin-bottom: -25px;
+      margin-left: -30px;
     }
   }
 
@@ -782,7 +782,9 @@
     }
 
     &--navigateButton {
-      border: 1.994px solid var(--light-smoke, #3E3E3E);
+      border: none;
+      padding: 1.994px solid var(--light-smoke, #3E3E3E);
+      //outline-offset: -1.994px;
       background: var(--dark-smoke, #181818);
       /*&:hover {
         background-color: var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
@@ -791,8 +793,9 @@
 
     &--snugpt {
       background: var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
-        font-size: 15.638px;
-        border: none;
+        //font-size: 15.638px;
+        border:none;
+        //border: 1.994px var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
     }
 
     &--button {
@@ -846,7 +849,7 @@
         //margin-right: 40px;
         width:70px;
         height: 70px;
-        right:35px;
+        right:20px;
       }
     }
 
