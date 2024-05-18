@@ -243,7 +243,7 @@
       gap:40px;
       margin-top:30px;
       @include respondAt(575px){
-        gap: 20px;
+        gap: 10px;
         flex-direction: row;
         justify-content: flex-start;
       }
@@ -262,7 +262,7 @@
         // @include box($width: fit-content);
         @include respondAt(575px){
           //display: inline-flexbox;
-          width: 100px;
+          width: 120px;
           //gap: 20px;
           padding: 5px 7px 4px 7px;
           box-sizing: content-box;
@@ -631,7 +631,10 @@
   margin: 0 auto;
   @include respondAt(575px) {
     padding: 0px 0px 0px 0px;
+    max-width: 575px;
     gap: 0px !important;
+    //justify-content: space-between;
+    //width:200px;
     //margin-top: -20px;
   }
 
@@ -653,7 +656,7 @@
       height:200px;
 
       @include respondAt(575px) {
-        margin-left: 35px;
+        margin-left: 20px;
         top:380px;
         width:70px;
         height: 70px;
@@ -666,6 +669,9 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    @include respondAt(575px){
+      width: 300px;
+    }
   }
 
   &__hat{
@@ -778,6 +784,9 @@
     &--navigateButton {
       border: 1.994px solid var(--light-smoke, #3E3E3E);
       background: var(--dark-smoke, #181818);
+      /*&:hover {
+        background-color: var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
+      }*/
     }
 
     &--snugpt {
@@ -815,8 +824,12 @@
     justify-content: right;
     align-items: right;
     @include respondAt(575px) {
-        
+      display: block;
+      flex-direction: none;  
+      gap:0px;
+      justify-content: left;
       width:100px;
+      //margin-right: 10px;
     }
     //align-items: right;
     &--img{
