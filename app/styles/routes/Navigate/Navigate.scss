@@ -128,7 +128,7 @@
         color: white;  //new color :p
         // color: yellow;
         // background: var(--titleHighlight);
-        background: linear-gradient(135deg, #6F00FF 0%, #492CFF 47.81%, #00A3FF 100%);     //new colour :p 
+        background: linear-gradient(90deg, #71191B 0%, #891E21 30.81%, #D73033 100%);     //new colour :p 
         padding-left: 0.45rem;
         padding-right: 0.45rem;
         font-weight: 400;//new weight in design :p
@@ -172,11 +172,14 @@
           height: 60px;
           width: 100%;
           @include make-flex($align: center);
-          padding: 7px 8px;
+          padding: 7px 15px;
           padding-top: 15px;
           padding-bottom: 15px;
           color: #343a4e;
-          border-radius: 5px;
+          border-radius: 20px;
+          margin-right: 8px;
+          background-color: #ECDDCE;
+          border: 1px solid #D2D2D2;
           @include respondAt(585px) {
             @include box(auto, auto);
             color: var(--black);
@@ -213,8 +216,8 @@
           @include respondAt(585px) {
             color: var(--white);
             // background-color: var(--blue);
-            padding: 9px 11px;
-            background: linear-gradient(135deg, #6F00FF 0%, #492CFF 47.81%, #00A3FF 100%);     //new colour :p
+            padding: 10px 17px;
+            background: linear-gradient(90deg, #71191B 0%, #891E21 30.81%, #D73033 100%);     //new colour :p
             border-radius: 20px;
             // background-color: var(--primaryColor);
           }
