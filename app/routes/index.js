@@ -77,6 +77,8 @@ export default function LandingPage() {
   return (
     <div className="LandingPage">
       <Header />
+      <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
       {/* <main className="LandingPage__mainContainer">
         <section className="heroSection">
           <div className="heroSection__img">
@@ -139,7 +141,7 @@ export default function LandingPage() {
         </section> */}
 
      <section className="convocation">
-      <div className="convocation__left">
+     <div className="convocation__left">
         <div className="convocation__left--img">
                 <img src={starleft}/>
         </div>

@@ -243,7 +243,7 @@
       gap:40px;
       margin-top:30px;
       @include respondAt(575px){
-        gap: 10px;
+        gap: 5px;
         flex-direction: row;
         justify-content: flex-start;
       }
@@ -631,8 +631,11 @@
   margin: 0 auto;
   @include respondAt(575px) {
     padding: 0px 0px 0px 0px;
-    max-width: 575px;
+    //width: 400px;
+    width: 100%;
+    max-width: 100%px;
     gap: 0px !important;
+    overflow-x: clip;
     //justify-content: space-between;
     //width:200px;
     //margin-top: -20px;
@@ -643,7 +646,7 @@
     //left: 0px;
     //position: relative;
     @include respondAt(575px) {
-      width: 100px;
+      width: 100%;
     }
     margin-left: 0px;
     &--img{
@@ -656,8 +659,8 @@
       height:200px;
 
       @include respondAt(575px) {
-        margin-left: 15px;
-        top:380px;
+        left: 30px;
+        top:300px;
         width:70px;
         height: 70px;
       }
@@ -670,7 +673,7 @@
     flex-direction: column;
     margin: 0 auto;
     @include respondAt(575px){
-      width: 300px;
+      width: 100%;
     }
   }
 
@@ -683,8 +686,8 @@
     @include respondAt(575px) {
       width: 90px;
       height: auto;
-      margin-bottom: -25px;
-      margin-left: -30px;
+      margin-bottom: -15px;
+      margin-left: -5px;
     }
   }
 
@@ -827,11 +830,10 @@
     justify-content: right;
     align-items: right;
     @include respondAt(575px) {
-      display: block;
-      flex-direction: none;  
       gap:0px;
       justify-content: left;
-      width:100px;
+      width:100%;
+      //margin-right: 40px;
       //margin-right: 10px;
     }
     //align-items: right;
@@ -849,7 +851,7 @@
         //margin-right: 40px;
         width:70px;
         height: 70px;
-        right:20px;
+        right:40px;
       }
     }
 
