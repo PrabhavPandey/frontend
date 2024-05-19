@@ -3,6 +3,7 @@
 .LandingPage {
   @include make-flex($just: flex-start);
   min-height: 100vh;
+  background: var(--gradient, linear-gradient(180deg, #ECDDCE 0%, #FFFFFF 55%));
 
   &__mainContainer {
     // @include box();
@@ -41,9 +42,10 @@
     // @include box($height: calc(100vh - 200px));
     @include make-flex($just: flex-start);
     // max-height: 720px;
+    width: 100%;
 
     gap: 65px;
-    padding: 0px 0px 0px 130px;
+    padding: 0px 0px 0px 0px;
     @include respondAt(575px) {
       padding: 0px 0px 0px 4.5px;
       gap: 60px !important;
@@ -234,11 +236,16 @@
     }
 
     &__users {
-      @include make-flex($dir: row, $just: flex-start);
+      @include make-flex($dir: row, $just: center, $align: center);
+      //width: 100%;
+      //gap: 70px;
       width: 100%;
-      gap: 70px;
+      gap:40px;
+      margin-top:30px;
       @include respondAt(575px){
-        gap: 20px;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: flex-start;
       }
       &--left {
         @include box($width: fit-content);
@@ -247,25 +254,28 @@
 
       &--right {
         // @include box(75%);
-        @include make-flex($dir: row, $align: flex-start, $just: space-between);
+        @include make-flex($dir: row, $align: center, $just: space-between);
         gap: -20px;
         // width: 435px;
         // height: 100px;
         padding: 7px 10px 6px 10px;
         // @include box($width: fit-content);
         @include respondAt(575px){
-          width: 100%;
+          //display: inline-flexbox;
+          width: 190px;
+          //gap: 20px;
           padding: 5px 7px 4px 7px;
           box-sizing: content-box;
         }
         border-radius: 65px;
-        background: linear-gradient(135deg, rgba(111, 0, 255, 0.20) 0%, rgba(73, 44, 255, 0.20) 47.81%, rgba(0, 163, 255, 0.20) 100%);
+        background: var(--gradient, linear-gradient(90deg, #71191B 0%, #891E21 35%, #D73033 100%));
+        opacity: 0.95;
       }
 
       &--userImageArrowImg {
         max-width: 60px;
         @include respondAt(575px){
-          max-width: 35px;
+          max-width: 25px;
         }
       }
 
@@ -610,4 +620,249 @@
       height: 100vh;
     }
   }
+}
+
+
+.convocation {
+  @include make-flex($dir: row, $align: none);
+
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  margin: 0 auto;
+  @include respondAt(575px) {
+    padding: 0px 0px 0px 0px;
+    //width: 400px;
+    width: 100%;
+    max-width: 100%px;
+    gap: 0px !important;
+    overflow-x: clip;
+    //justify-content: space-between;
+    //width:200px;
+    //margin-top: -20px;
+  }
+
+  &__left{
+    width:300px;
+    //left: 0px;
+    //position: relative;
+    @include respondAt(575px) {
+      width: 100%;
+    }
+    margin-left: 0px;
+    &--img{
+      position: relative;
+      top:140px;
+      margin-left: 0;
+      //left: -200px;
+
+      width:200px;
+      height:200px;
+
+      @include respondAt(575px) {
+        left: 30px;
+        top:300px;
+        width:70px;
+        height: 70px;
+      }
+    }
+  }
+
+  &__middle{
+    width:550px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    @include respondAt(575px){
+      width: 100%;
+    }
+  }
+
+  &__hat{
+    width: 120px;
+    height: auto;
+    padding: 0;
+    margin-bottom: -25px;
+    margin-left: -25px;
+    @include respondAt(575px) {
+      width: 90px;
+      height: auto;
+      margin-bottom: -15px;
+      margin-left: -5px;
+    }
+  }
+
+  &__title {
+    &--highlight {
+
+      background: var(--gradient, linear-gradient(90deg, #71191B 0%, #891E21 35%, #D73033 100%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      // font-family: ;
+      // font-size: 79.633px;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 100%;
+      @include respondAt(575px) {
+        // font-size: 9vw;
+        font-size: 2.1rem;
+        line-height: 100%;
+      }
+    }
+
+    &--unhighlight {
+      color: var(--unhighlightTextColor);
+    }
+
+    h1 {
+      margin: 0px 0 0px 0;
+      text-align: center;
+      display: inline-block;
+      @include box(100%, auto);
+      position: relative;
+      font-family: "Poppins", sans-serif;
+      // font-size: 72px;
+      font-size: 3.5rem;
+      font-weight: 400;
+      line-height: 116.45%;
+      // line-height: 75px;
+      color: #000; //new :p
+      font-weight: 400;//also new :p
+      // color: var(--textColor);
+      transition: font-size 0.5s ease-in-out;
+
+      @include respondAt(1400px) {
+        font-size: 60px;
+      }
+      @include respondAt(1200px) {
+        font-size: 50px;
+      }
+
+      @include respondAt(575px) {
+        // font-size: 9vw;
+        font-size: 2.1rem;
+        line-height: 116%;
+      }
+
+      // @include respondAt(505px) {
+      //   font-size: 9vw;
+      //   line-height: 50px;
+      // }
+    }
+  }
+
+  &__desc {
+    // font-family: "Poppins", sans-serif;
+    font-family: AcidGroteskRegular;
+    color: var(--primaryTextColor);
+    color: #000;
+    font-weight: 400;
+    line-height: 167.5%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    // font-size: 20px;
+    //margin: 0px;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    @include box(100%, auto);
+
+    @include respondAt(575px) {
+      @include box(100%, auto);
+      font-size: .9rem;
+    }
+
+    // @include respondAt(670px) {
+    // }
+  }
+
+  &__buttons {
+    @include make-flex($dir: row, $align: flex-start);
+    gap: 30px;
+    @include respondAt(575px){
+      gap: 20px;
+    }
+
+    &--navigateButton {
+      border: none;
+      padding: 1.994px solid var(--light-smoke, #3E3E3E);
+      //outline-offset: -1.994px;
+      background: var(--dark-smoke, #181818);
+      /*&:hover {
+        background-color: var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
+      }*/
+    }
+
+    &--snugpt {
+      background: var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
+        //font-size: 15.638px;
+        border:none;
+        //border: 1.994px var(--gradient, linear-gradient(135deg, #71191B 0%, #891E21 35%, #D73033 100%));
+    }
+
+    &--button {
+      padding: 27.914px 11.206px !important;
+      width: 210px;
+      border-radius: 11.963px;
+      color: var(--white);
+      text-align: center;
+      font-family: PowerGroteskTrial;
+      font-size: 21.5px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      @include respondAt(575px){
+        width: 120px;
+        padding: 20px 11.206px !important;
+        border-radius: 5px;
+        font-size: 13.5px;
+      }
+    }
+  }
+
+  &__right{
+    width:300px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    gap:280px;
+    justify-content: right;
+    align-items: right;
+    @include respondAt(575px) {
+      gap:0px;
+      justify-content: left;
+      width:100%;
+      //margin-right: 40px;
+      //margin-right: 10px;
+    }
+    //align-items: right;
+    &--img{
+      //display: grid;
+      width:100px;
+      height:100px;
+      position: relative;
+      right: -200px;
+      //margin-right: -20px;
+      //align-items: right;
+      //justify-self: right;
+      @include respondAt(575px) {
+        top: -30px;
+        //margin-right: 40px;
+        width:70px;
+        height: 70px;
+        right:40px;
+      }
+    }
+
+    &--cards{
+      width:300px;
+      height:auto;
+      @include respondAt(575px) {
+        display: none;
+      }
+    }
+  }
+
+
 }
