@@ -138,8 +138,7 @@ export default function Navigate() {
               Navigate<span>Campus</span>
             </h1>
             <p className="NavigatePage__left__content--desc">
-              Having an issue finding your way around campus? Don't worry we got
-              you covered!
+              We get it, navigating the university can be challenging! But have no worries, We can connect you to resourses that will unlock all that Shiv Nadar University has to offer.
             </p>
           </div>
           {/* <SearchBar style={{ width: "100%", marginBottom: "20px" }} /> */}
