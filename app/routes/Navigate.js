@@ -18,6 +18,7 @@ import appLogo from "../Assets/Img/logo.svg";
 import downDropDown from "../Assets/Img/downDropDown.svg";
 import basketBallIcon from "../Assets/Img/basketBallIcon.svg";
 import residentialIcons from "../Assets/Img/residentialsIcon.svg";
+import convocationIcon from "../Assets/Img/graduation-cap.svg";
 import Footer from "~/Components/Footer/Footer";
 
 export function links() {
@@ -51,6 +52,7 @@ export default function Navigate() {
   });
 
   let iconSrcPanel = {
+    Convocation: convocationIcon,
     Residential: residentialIcons,
     Food: foodIcon,
     Academics: penIcon,
