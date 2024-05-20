@@ -364,9 +364,16 @@
   "POI": [
     {
       "name": "SARC",
-      "location": "https://www.google.com/maps/place/28%C2%B031'25.4%22N+77%C2%B034'31.2%22E/@28.5237344,77.5742457,18z/data=!3m1!4b1!4m6!3m5!1s0x0:0xf7e11b9c6faeb5c0!7e2!8m2!3d28.5237315!4d77.5753397",
-      "description": "",
-      "image": "https://media.giphy.com/media/xUA7b56lPon8J46Y8M/giphy.gif"
+      "location": "https://www.google.com/maps/place/28%C2%B031'24.9%22N+77%C2%B034'28.7%22E/@28.523573,77.574646,17z/data=!3m1!4b1!4m4!3m3!8m2!3d28.523573!4d77.574646?entry=ttu",
+      "description": "The perfect place to showcase your creative side",
+      "image": "https://cdn.discordapp.com/attachments/876719137236348988/1242122782557339688/sarc.jpg?ex=664cb07c&is=664b5efc&hm=eddadf306c5ccc0de0bc3b5c89dd6d9458c71ae55c77372bac9e82b48dec0956&"
+    },
+
+    {
+      "name": "Amphitheater",
+      "location": "https://www.google.com/maps/place/28%C2%B031'26.3%22N+77%C2%B034'27.0%22E/@28.52398,77.574173,17z/data=!3m1!4b1!4m4!3m3!8m2!3d28.52398!4d77.574173?entry=ttu",
+      "description": "Catch the behind the scenes of every event and club here",
+      "image": "https://cdn.discordapp.com/attachments/876719137236348988/1242122407213400205/amphi.jpg?ex=664cb023&is=664b5ea3&hm=56c53fff5431ae66c8b853a19d0c0a3365aff3579161316cc7135b6411254f2a&"
     },
 
     {
@@ -523,9 +530,9 @@
     },
 
     {
-      "name": "Indoor Sports Complex",
+      "name": "Convocation Arena",
       "location": "https://www.google.com/maps/place/MESS,+SHIV+NADAR+UNIVERSITY,+Greater+Noida,+Uttar+Pradesh+203207/@28.5212659,77.5709869,17z/data=!3m1!4b1!4m6!3m5!1s0x390c94d7aebad7e7:0x2ff00a3708565d0c!8m2!3d28.5212659!4d77.5709869!16s%2Fg%2F11f4qlbdy2?hl=en-IN&entry=ttu",
-      "description": "",
+      "description": "Known as indoor sports complex",
       "image": "https://media.discordapp.net/attachments/1057249773754785803/1139497148854063154/ISC.jpeg?width=895&height=671"
     },
 
