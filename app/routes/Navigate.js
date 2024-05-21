@@ -144,6 +144,7 @@ export default function Navigate() {
               you covered!
             </p>
           </div>
+          <SearchBar></SearchBar>
           {/* <SearchBar style={{ width: "100%", marginBottom: "20px" }} /> */}
           {/* not needed anymore :p */}
           <div
