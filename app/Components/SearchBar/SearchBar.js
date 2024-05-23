@@ -13,7 +13,7 @@ function SearchBar({ style }) {
   const trending = [
     {name: 'DH1', category: 'Food', link: 'Dining Hall 1'},
     {name: 'D Block', category: 'Academics', link: 'D Block'},
-    {name: 'Horse Stables', category: 'POI', link: 'Horse Stables'},
+    {name: 'Horse Stables', category: 'Convocation', link: 'Horse Stables'},
     {name: 'Library', category: 'Academics', link: 'Library'},
     {name: 'Arcade', category: 'Essentials', link: 'Supermarket'},
   ];
