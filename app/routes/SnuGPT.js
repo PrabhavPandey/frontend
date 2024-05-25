@@ -13,17 +13,18 @@ export function links() {
 }
 
 export default function SnuGPT() {
-    return(
+  return (
     <div className="SnuGPTPage">
-    <Header />
-    <Navbar />
-    <main className="SnuGPTPage__mainContainer">
+      <Header />
+      <Navbar />
+      <main className="SnuGPTPage__mainContainer">
         <section className="heroSection">
-        <div className="heroGPT">        
+          <div className="heroGPT">
             <div className="heroGPT__left">
-            <div className="heroGPT__title">
-            <h1>
-                  Introducing <span className="heroGPT__title--highlight">SNU-GPT</span>
+              <div className="heroGPT__title">
+                <h1>
+                  Introducing{" "}
+                  <span className="heroGPT__title--highlight">SNU-GPT</span>
                 </h1>
                 {/* <h1>
                   To all{" "}
@@ -33,7 +34,10 @@ export default function SnuGPT() {
               </div>
               <div className="heroGPT__desc">
                 <p>
-                Empowering Your Journey with SNUxplore's AI-Powered Chatbot. Instant answers to all your SNU questions. AI chatbot trained on Student Handbook. Streamline support, save time, excel at SNU life. Embrace the future now!
+                  Empowering Your Journey with SNUxplore's AI-Powered Chatbot.
+                  Instant answers to all your SNU questions. AI chatbot trained
+                  on Student Handbook. Streamline support, save time, excel at
+                  SNU life. Embrace the future now!
                 </p>
               </div>
               {/* <div className="heroGPT__buttons">
@@ -43,30 +47,28 @@ export default function SnuGPT() {
                 />
               </div> */}
               {/* {<img className="heroGPT__left" src={Gradientgpt} />} */}
-              </div>
-              <div className="heroGPT__right">
-                {<img className="heroGPT__right" src={HerogptImage} />}
-                </div>
-              
+            </div>
+            <div className="heroGPT__right">
+              {<img className="heroGPT__right" src={HerogptImage} />}
+            </div>
           </div>
         </section>
-              <section className="chatbotGPTSection">
-                <div className="chatbotGPTSection__chatbotGPT">
-                  <div className="chatbotGPTSection__chatbotGPT__chatbox">
-                <iframe
-                src="https://www.chatbase.co/chatbot-iframe/ZCA-Dkgh07PmpsbVhGweb"
+        <section className="chatbotGPTSection">
+          <div className="chatbotGPTSection__chatbotGPT">
+            <div className="chatbotGPTSection__chatbotGPT__chatbox">
+              <iframe
+                src="https://instantanswers.xyz/chatbots/7a8574a9-51bc-4a4d-b003-69b78aac273d/iframe"
                 width="100%"
-                className="chatbotGPTSection__chatbotGPT--iframe"
-                //style="height: 100%; min-height: 700px"
+                height="400px"
                 frameborder="0"
-                ></iframe>  
-  </div></div>
-</section>
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
 
-              </main>
-              
-              <InquiryFeedbackSection />
-              <Footer />
-              </div> 
-
-  )}
+      <InquiryFeedbackSection />
+      <Footer />
+    </div>
+  );
+}
