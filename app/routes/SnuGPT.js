@@ -33,7 +33,7 @@ export default function SnuGPT() {
               </div>
               <div className="heroGPT__desc">
                 <p>
-                Empowering Your Journey with SNUxplore's AI-Powered Chatbot. Instant answers to all your SNU questions. AI chatbot trained on Student Handbook. Streamline support, save time, excel at SNU life. Embrace the future now!
+                Coming soon! Currently under development.
                 </p>
               </div>
               {/* <div className="heroGPT__buttons">
@@ -53,13 +53,13 @@ export default function SnuGPT() {
               <section className="chatbotGPTSection">
                 <div className="chatbotGPTSection__chatbotGPT">
                   <div className="chatbotGPTSection__chatbotGPT__chatbox">
-                <iframe
+                {/* <iframe
                 src="https://www.chatbase.co/chatbot-iframe/ZCA-Dkgh07PmpsbVhGweb"
                 width="100%"
                 className="chatbotGPTSection__chatbotGPT--iframe"
                 //style="height: 100%; min-height: 700px"
                 frameborder="0"
-                ></iframe>  
+                ></iframe>   */}
   </div></div>
 </section>
 

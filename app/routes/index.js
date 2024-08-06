@@ -139,7 +139,7 @@ export default function LandingPage() {
             <div className="heroSection__users">
               <div className="heroSection__users--left">
                 <div className="heroSection__usersData">
-                  <div className="heroSection__usersData--count">3.5k</div>
+                  <div className="heroSection__usersData--count">6.5k</div>
                   <div className="heroSection__usersData--text">users already use snuxplore</div>
                 </div>
               </div>
