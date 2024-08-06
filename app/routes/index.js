@@ -133,30 +133,6 @@ export default function LandingPage() {
               <div className="heroSection--img">
                 <img src={HeroImage} />
               </div>
-              {/* <div className="heroSection__funFact">
-                <span>Fun Fact :&nbsp; &nbsp;</span>
-                <p>Nilgais will chase you if you make eye contact</p>
-              </div> */}
-              {/* <SearchBar /> */}
-              {/* <div className="heroSection__instagramDiv">
-                <p className="heroSection__instagramDiv--text">
-                  Don’t forget to follow our instagram for regular updates!
-                </p>
-                <div className="heroSection__instagramDiv--instaHandle">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.instagram.com/snu.xplore/"
-                  >
-                    <img
-                      className="heroSection__instagramDiv--instaHandle--instaLogo"
-                      src={instagramLogo}
-                      alt="instagram icon"
-                    />
-                    @snu.xplore
-                  </a>
-                </div>
-              </div> */}
             </div>
           </div>
           <div className="heroSection__bottom">
